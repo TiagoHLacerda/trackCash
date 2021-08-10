@@ -1,0 +1,218 @@
+
+.Login{
+    display: flex;
+    /* position: absolute; */
+    width: 1044px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+    margin-bottom: auto;
+    justify-content: center;
+align-items: center;
+    /* left: 161px;
+    top: 84px; */
+    
+    /* $mono/$light */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.3);
+    border-radius: 14px;
+}
+.Login-L{
+    align-items: center;
+
+ padding-left:100px;
+ padding-top: 84px;
+   /* // width: 522px; */
+    /* height: 600px; */
+}
+.Login-Logo{
+    display: flex;
+    margin-left: 80px;
+}
+.Flogin{
+
+  
+    padding-left:10px;
+    color:#C94A21;
+    display: flex;
+align-items: center;
+text-align: center;
+/* //font-family: Ubuntu; */
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+}
+.Login-A{
+    background-color: cadetblue;
+}
+
+.Login-Field{
+    
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+    width: 302px;
+    height: 45px;
+    padding: 8px, 16px, 8px, 16px ;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: all .1s linear;
+
+}
+.Login-Field:focus{
+outline: none;
+box-shadow: 0 4px 4px rgba(0,0,0,5);
+}
+.Login-Error{
+    display: block;
+    color:tomato;
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+
+}
+.Login-Btn{
+    margin-top: 20px;
+    background: #C94A21;
+    color: white;
+    size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    width: 302px;
+    height: 45px;
+    padding: 16px, 0px, 16px, 0px;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.Login-Btn:hover{
+cursor:pointer;
+}
+.BackGroundImg{
+    display: flex;
+    /* position: absolute;
+ background-image: url("../../assets/img/bgImg.jpg") ;  */
+ background: linear-gradient(
+     0deg, 
+ rgba(201, 74, 33, 0.9), 
+ rgba(201, 74, 33, 0.9)),
+    url("../../assets/img/bgImg.jpg") 
+    no-repeat;
+width: 522px;
+height: 600px;
+margin-left: auto;
+
+/* $basic/$orange */
+
+/* background-color: #C94A21;   */
+opacity: 0.9;
+box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.25);
+border-radius: 0px 14px 14px 0px;
+   /* min-width: 522px;
+ 
+   margin-left: auto;
+   margin-right: auto;
+    color:blueviolet;
+    background: brown; */
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.subT{
+    position: static;
+width: 394px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 60px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* $mono/$light */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.Descripition{
+    
+position: static;
+width: 334px;
+height: 105px;
+left: 30px;
+top: 150px;
+
+/* font-family: Ubuntu; */
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 132%;
+/* or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* $mono/$light */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+}
+.IconEmail{
+    float: left;
+    display: flex;
+    /* right: 10px;
+   */
+}
+.IconEmail-Icon{
+width: 20px;
+height: 20px;
+display: flex;
+position: relative;
+float: left;
+top:33px;
+right: 33px;
+
+}
+.Cadeado-Icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    float: right;
+    top:33px;
+    right: 33px;
+  
+    }
+    

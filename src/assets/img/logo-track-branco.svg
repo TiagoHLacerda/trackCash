@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="32" viewBox="0 0 25 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="25" height="32" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="superior_e_filtros" data-name="superior e filtros" clip-path="url(#clip-path)">
+    <path id="Path_1" data-name="Path 1" d="M0,.02,14.68,7.17V24.68l-1.84-.55V9.1L3.54,5.28V27.6L9,26.2l3.54,1.43L0,32Z" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M24.28,0,12.27,5.45l2.96,1.42,5.49-1.92V27.14l-9.17-2.92V9.2L9.68,8.46V25.95l14.6,5.78Z" transform="translate(0.72)" fill="#fff"/>
+  </g>
+</svg>
